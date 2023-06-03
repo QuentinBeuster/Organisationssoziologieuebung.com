@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Organisationssoziologie/Übung</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .green {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="https://www.hwr-berlin.de/"><img id="navimg" src="hwr-berlin-schoeneberg_1200x1200.webp"></a>
+    </div>
+    <div>
+      <ul>
+        <il><a class="navlink" href="#sectiontask1">1.Mechanismen</a></il>
+        <il><a class="navlink" href="#sectiontask2">2.Zombieapokalypse</a></il>
+        <il><a class="navlink" href="#sectiontask3">3.Worträtsel</a></il>
+        <il><a class="navlink" href="#sectiontask4">4.Was fehlt?</a></il>
+        <il><a class="navlink" href="#totalTimerSection">Zeit</a></il>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <button id="startButton" onclick="startTimers()"><img id="playimg" src="play.png"></button>
+    <div>
+      <h1>Organisationssoziologie<br><span id="thequiz">Das Quiz</span></h1>
+    </div>
+  </header>
+
+  <section id="sectiontask1">
+    <div class="leftcontainertask">
+      <h1 id="h1Über">psychologische Mechanismen</h1>
+      <div id="timerContainer">
+        <div>
+          <span id="timer1">00:00:00</span> <br><br>
+          <input type="text" id="input1" placeholder="answer" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="rightcontainertask">
+      <img id="task1img" src="task1.jfif">
+    </div>
+  </section>
+
+  <section id="sectiontask2">
+    <div class="leftcontainertask">
+      <h1 id="h1Über">Zombieapokalypse</h1>
+      <div id="timerContainer">
+        <div>
+          <span id="timer2">00:00:00</span> <br><br>
+          <input type="text" id="input2" placeholder="answer" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="rightcontainertask">
+      <img id="task1img" src="task2.jpg">
+    </div>
+  </section>
+
+  <section id="sectiontask3">
+    <div class="leftcontainertask">
+      <h1 id="h1Über">Worträtsel</h1>
+      <div id="timerContainer">
+        <div>
+          <span id="timer3">00:00:00</span><br><br>
+          <input type="text" id="input3" placeholder="answer" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="rightcontainertask">
+      <img id="task3img" src="task3.jfif">
+    </div>
+  </section>
+
+  <section id="sectiontask4">
+    <div class="leftcontainertask">
+      <h1 id="h1Über">Was fehlt?</h1>
+      <div id="timerContainer">
+        <div>
+          <span id="timer4">00:00:00</span><br><br>
+          <input type="text" id="input4" placeholder="answer" disabled>
+        </div>
+      </div>
+    </div>
+    <div class="rightcontainertask">
+      <img id="task1img" src="task4.jfif">
+    </div>
+  </section>
+
+  <section id="totalTimerSection">
+    <div id="headerContainer">
+      <div id="TotalTimeContainer">
+        <span id="totalTime">00:00:00</span>
+      </div>
+    </div>
+  </section>
+  
+  <footer>©QuentinBeuster | 05.06.2023 </footer>
+  <script src="script.js"></script>
+</body>
+</html>
